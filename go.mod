@@ -3,9 +3,11 @@ module github.com/higatu/todo-app
 go 1.22.0
 
 require (
+	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.9.1
 	github.com/jmoiron/sqlx v1.3.5
 	github.com/lib/pq v1.10.9
+	github.com/sirupsen/logrus v1.9.3
 	github.com/spf13/viper v1.18.2
 )
 
@@ -45,7 +47,7 @@ require (
 	golang.org/x/crypto v0.21.0 // indirect
 	golang.org/x/exp v0.0.0-20240325151524-a685a6edb6d8 // indirect
 	golang.org/x/net v0.22.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
+	golang.org/x/sys v0.19.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
